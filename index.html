@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Switching Interface</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images.png">
+</head>
+<body>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="1">First Tab</button>
+    <button class="tab" data-tab="2">Second Tab</button>
+    <button class="tab" data-tab="3">Third Tab</button>
+    <button class="tab" data-tab="4">Fourth Tab</button>
+  </div>
+
+  <div class="content">
+    <div class="tab-content active" id="tab-1">
+      <h2>Welcome</h2>
+        <p>
+        This is a simple interactive tab system built with HTML, CSS, and JavaScript.
+        It helps organize information into separate sections without reloading the page.
+        </p>
+
+        <p>
+        Click through the tabs to explore how everything works step by step.
+        </p>
+    </div>
+    <div class="tab-content" id="tab-2">
+      <h2>How It Works</h2>
+        <p>
+        Each tab button is linked to a content section using a shared identifier.
+        When you click a tab, JavaScript shows the matching content and hides the others.
+        </p>
+
+        <p>
+        This is done by adding and removing the <strong>active</strong> class dynamically.
+        </p>
+    </div>
+    <div class="tab-content" id="tab-3">
+        <h2>Key Features</h2>
+        <ul>
+          <li>Clean and responsive layout</li>
+          <li>Smooth tab switching without page reload</li>
+          <li>Simple HTML, CSS, and JavaScript structure</li>
+          <li>Easy to customize and expand</li>
+        </ul>
+        <p>
+        This pattern is commonly used in dashboards, settings pages, and product sections.
+        </p>
+    </div>
+    <div class="tab-content" id="tab-4">
+      <h2>Where This Is Used</h2>
+      <p>
+      Tab interfaces are used in many modern websites to improve user experience and reduce clutter.
+      </p>
+
+      <ul>
+        <li>Settings pages (profile, security, preferences)</li>
+        <li>Product details pages (description, reviews, specs)</li>
+        <li>Dashboards and admin panels</li>
+        <li>Educational platforms and documentation sites</li>
+      </ul>
+
+      <p>
+      They help users focus on one section at a time while keeping everything organized.
+      </p>
+    </div>
+  </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
